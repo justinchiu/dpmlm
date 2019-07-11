@@ -1,52 +1,51 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: dpmlm.aux
-I couldn't open style file acl_natbib.bst
----line 23 of file dpmlm.aux
- : \bibstyle{acl_natbib
- :                     }
-I'm skipping whatever remains of this command
-I found no \citation commands---while reading file dpmlm.aux
-I found no style file---while reading file dpmlm.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            85 strings with 497 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+The style file: acl_natbib.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: bib.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 1 entry,
+            3571 wiz_defined-function locations,
+            700 strings with 5652 characters,
+and the built_in function-call counts, 641 in all, are:
+= -- 53
+> -- 24
+< -- 1
++ -- 7
+- -- 6
+* -- 40
+:= -- 122
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 7
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 40
+empty$ -- 46
+format.name$ -- 11
+if$ -- 135
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 8
+newline$ -- 9
+num.names$ -- 4
+pop$ -- 17
+preamble$ -- 1
+purify$ -- 6
 quote$ -- 0
-skip$ -- 0
+skip$ -- 37
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 11
+swap$ -- 19
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 9
 warning$ -- 0
-while$ -- 0
+while$ -- 3
 width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+write$ -- 16

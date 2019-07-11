@@ -1,0 +1,10 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Mielke and Eisner(2018)}]{mielke2018spell}
+Sebastian~J. Mielke and Jason Eisner. 2018.
+\newblock \href {http://arxiv.org/abs/1804.08205} {Spell once, summon anywhere:
+  {A} two-level open-vocabulary language model}.
+\newblock \emph{CoRR}, abs/1804.08205.
+
+\end{thebibliography}

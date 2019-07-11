@@ -13,14 +13,43 @@ Justin T. Chiu
 \maketitle
 
 \begin{abstract}
-Asdf
+We extend the work in \citet{mielke2018spell}
+with a Dirichlet Process mixture language model.
 \end{abstract}
 
 \section{Problem Statement}
-asdf
+Open vocabulary LM with open class latent lexemes.
+Maybe explicitly model some other stuff with local RVs?
+
+Let's see what we can discover...
 
 \section{Model}
+
+Generative story.
+Let $\alpha$ be a hyperparameter and $G_0 \sim N(0, I_d)$.
+\begin{enumerate}
+\item Draw $V_i \mid \alpha, x_{<t} \sim \Betad(1, \alpha), i = \set{1,2,\ldots}$,
+    the parameters of the stick breaking process.
+\item Draw $\eta_i^*\mid G_0 \sim G_0, i = \set{1,2,\ldots}$,
+    the embeddings for the latent lexemes.
+\item For each index $t \in 1, \ldots, T$
+\begin{enumerate}
+\item Draw lexeme $Z_t \mid \set{v_1,v_2,\ldots} \sim \Cat(\pi(\bv))$
+\item Draw word $X_t \mid z_t \sim p(x_t \mid \eta^*_{z_t})$
+\end{enumerate}
+\end{enumerate}
 asdf
+
+\subsection{Parameterization}
+
+
+\section{Training and Inference}
+
+
+\section{Anticipated Failure Cases}
+\begin{enumerate}
+\item 
+\end{enumerate}
 
 \bibliography{bib}
 \bibliographystyle{acl_natbib}
